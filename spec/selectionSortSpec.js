@@ -1,7 +1,7 @@
 import { getAsc } from '../src/selectionSort.js';
 
-describe("[오름차순 수행]", function() {
-	it("오름차순 시도", function() {
+describe("[선택 정렬]", function() {
+	it("오름차순", function() {
 			expect(getAsc([31, 41, 57, 59, 26, 41])).toEqual([26, 31, 41, 41, 57, 59]);
 
 			expect(getAsc([5, 2, 4, 6, 1, 3])).toEqual([1, 2, 3, 4, 5, 6]);
